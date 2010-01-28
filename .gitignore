@@ -1,0 +1,41 @@
+# Untracked extensions:
+# ---------------------
+*.~*
+*.bak
+*.dcu
+*.dcp
+*.ddp
+*.dsm
+*.ddp
+*.dsk
+*.drc
+*.dpu
+*.hpp
+*.obj
+*.map
+*.rsm
+*.$$$
+*.identcache
+*.local
+*.d
+
+# Untracked files:
+# ---------------------
+project-vars.bat
+Thumbs.db
+
+# Untracked folders:
+# ---------------------
+*.git
+*.git-*
+*.out
+*.local
+__history
+
+
+# Untracked binaries:
+# ---------------------
+*.exe
+*.bpl
+*.dll
+
