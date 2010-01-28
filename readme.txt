@@ -9,20 +9,20 @@ Global setup:
 
 Next steps:
 
-  mkdir SandBox
-  cd SandBox
+  mkdir sandbox
+  cd sandbox
   git init
   touch README
   git add README
   git commit -m 'first commit'
-  git remote add origin git@github.com:runningmaster/SandBox.git
+  git remote add origin git@github.com:runningmaster/sandbox.git
   git push origin master
       
 
 Existing Git Repo?
 
   cd existing_git_repo
-  git remote add origin git@github.com:runningmaster/SandBox.git
+  git remote add origin git@github.com:runningmaster/sandbox.git
   git push origin master
    
 
