@@ -1,0 +1,56 @@
+Обычно в корень проекта я добавляю следующий набор полезных в
+повседневной работе файлов (они игнор по маске *.git-*):
+
+.git-comm.cmd
+{
+  rem
+  rem Для уверенного коммита
+  rem Автоматическое добавление _ВСЕХ_ файлов в индекс
+  rem git gui для написания комментария к коммиту
+  rem
+  call git add .
+  call git add -u
+  call git gui
+}
+
+.git-diff.cmd
+{
+  rem
+  rem Для обычного коммита
+  rem git gui для ручного добавление файлов в индекс
+  rem git gui для написания комментария к коммиту
+  rem
+  call git gui
+}
+
+.git-gitk.cmd
+{
+  rem
+  rem Для осмотра истории (сразу по всем веткам)
+  rem
+  call gitk --all
+}
+
+.git-pull.cmd
+{
+  rem
+  rem Для забора новых коммитов с сервера (для ветки master)
+  rem
+  start cmd /k git pull origin master
+}
+
+.git-push.cmd
+{
+  rem
+  rem Для слива своих коммитов на сервер (из ветки master)
+  rem
+  start cmd /k git push origin master
+}
+
+.git-stat.cmd
+{
+  rem
+  rem Для быстрого осмотра состояния
+  rem
+  start cmd /k git status
+}
