@@ -3,7 +3,7 @@ Global setup:
 
   Download and install Git
   git config --global user.name "Dmitriy Kovalenko"
-  git config --global user.email runningmaster@gmail.com
+  git config --global user.email runningmaster.gmail.com
   Add your public key
         
 
